@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../font/Roboto-Regular.woff2') format('woff2');
+  src: local('Roboto'), url('../font/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+
+/* Меню/Навигация */
+.header {
+  background-color: #3F2AFF;
+}
+
+.header__logo {
+  padding-right: 25px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
+  padding-bottom: 25px;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  min-width: fit-content;
+  margin-top: -5px;
+}
+
+.nav__menu__link {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Курсы 3D моделирования */
+.hero {
+  background: radial-gradient(#555681, #212133);
+}
+
+.hero__box {
+  flex-wrap: nowrap;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.hero__h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding-top: 115px;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  max-width: 444px;
+}
+
+.hero__btn {
+  width: 270px;
+  height: 69px;
+  border-radius: 20px;
+  background-color: #3F2AFF;
+  color: #FFFFFF;
+  border-color: #3F2AFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hero__img {
+  width: auto;
+}
+
+/* Преймущества обучения в Skillbox */
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about__box {
+  margin-bottom: 20px;
+}
+
+.about__blok {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.about__h2 {
+  color: #2E2B44;
+  margin-bottom: 20px;
+}
+
+.about__box1__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.about__box2__p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #666666;
+}
+
+
+/* Преподаватели курсов */
+.teachers {
+  background-color: #212133;
+  padding-top: 74px;
+  padding-bottom: 75px;
+}
+
+.teachers__h2 {
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.teachers__img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  margin-bottom: 28px;
+}
+
+.teachers__h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.teachers__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #85859B;
+}
+
+
+/* Курсы */
+.courses {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.courses__time {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  top: 10px;
+  right: 20px;
+
+}
+
+.courses__time__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #FFFFFF;
+}
+
+.courses__h2 {
+  color: #212133;
+  margin-bottom: 23px;
+}
+
+.courses__box {
+  display: flex;
+  min-height: 480px;
+  margin-bottom: 30px;
+}
+
+.courses__blok {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #EDF0F9;
+  border-radius: 20px;
+}
+
+.courses__img {
+  width: 100%;
+  margin-bottom: 26px;
+}
+
+.courses__h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 8px;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+
+.courses__p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 15px;
+  margin-left: 30px;
+  color: #666666;
+}
+
+.courses__btn {
+  width: 202px;
+  height: 60px;
+  border-radius: 20px;
+  background: #3F2AFF;
+  border-color: #3F2AFF;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  transition: background 1s ease-in-out, color 1s ease-in-out;
+}
+
+.courses__btn:hover {
+  background: #2a86ff;
+  color: #212133;
+}
+
+.courses__btn:active {
+  border-color: #2affad;
+}
+
+.courses__btn:focus {
+  background: #2a86ff;
+  color: #212133;
+  border-color: #2affad;
+}
+
+/* footer */
+.footer {
+  background-color: #2E2B44;
+}
+
+.footer__blok__icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  width: 186px;
+}
+
+.footer__blok__logo {
+  background-color: #FFFFFF;
+  padding-top: 5px;
+}
